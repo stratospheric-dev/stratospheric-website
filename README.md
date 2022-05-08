@@ -1,6 +1,6 @@
 # Stratospheric Landing Page & Blog
 
-**Important Hint**: We switched from GitHub Pages to Netlify to have a global CDN and a live preview feature of branches. The site is configured as part of Philip's Netlify account.
+**Important Hint**: Don't directly commit to the branch `gh-pages`. This branch is used by the Hugo GitHub Actions to store the static content and is automatically updated on each commit to `master`.
 
 ## Local Development
 
