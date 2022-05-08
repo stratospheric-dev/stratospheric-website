@@ -1,0 +1,3 @@
+{{ $imageUrl := (print "/images/articles/generated/preview/" . ".webp") }}
+{{ $absoluteImageUrl := (absURL $imageUrl) }}
+{{- $absoluteImageUrl -}}

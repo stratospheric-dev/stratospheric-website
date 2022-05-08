@@ -1,0 +1,16 @@
+.idea
+*.iml
+
+node_modules
+
+# Auto generated .webp images
+static/images/articles/generated
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Hugo build folder
+/public/
+
+.hugo_build.lock

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" . }}
+{{ partial "consent-head-end.html" . }}
+<body>
+{{ partial "navbar.html" . }}
+<main>
+    <!-- SECTION LABEL -->
+    <div id="top"></div>
+    {{ block "main" . }}{{ end }}
+</main>
+{{ partial "footer.html" . }}
+{{ partial "footer-scripts.html" . }}
+
+{{ partial "consent-body-end.html" . }}
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "stratospheric.dev",
+  "version": "1.0.0",
+  "description": "Stratospheric static website",
+  "scripts": {
+    "images:optimize": "node scripts/optimize-images.js"
+  },
+  "devDependencies": {
+    "imagemin": "^7.0.1",
+    "imagemin-webp": "^6.0.0"
+  },
+  "engines": {
+    "node": ">= 16"
+  }
+}

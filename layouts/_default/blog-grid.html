@@ -1,0 +1,53 @@
+{{ define "main" }}
+<div class="wrapper">
+  <div class="header">
+    <div class="container header-container">
+      <div class="col-lg-10 offset-lg-1 legal-text text-body">
+        <h1 class="header-title">Blog</h1>
+        <h2 id="introduction">Everything about Spring Boot & AWS</h2>
+
+        <div class="row mt-3 mb-3">
+          {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
+          {{ range $paginator.Pages }}
+          <div class="col-md-6 mb-6 mt-3">
+            <div class="card h-100">
+              <a class="card-img-top stretched-link" href="{{ .Permalink }}">
+                {{ $featureImage := (trim (partial "feature-image-preview.html" .Params.featureImage) "\n") }}
+                <img class="img-fluid" src="{{ $featureImage }}" alt="">
+              </a>
+              <div class="card-body">
+                <h2 class="card-title">{{ .Title }}</h2>
+                <div class="card-text">
+                  <strong> {{ $author := (index .Site.Data.authors .Params.author) }}
+                    {{ $author.name }}</strong> <span class="text-muted"><i class="fa fa-clock-o"></i> {{ .PublishDate.Format "January 2, 2006" }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+
+        {{ if gt $paginator.TotalPages 1 }}
+        <ul class="post-navigation">
+          {{ if $paginator.HasPrev }}
+          <li class="prev"><a href="{{ $paginator.Prev.URL }}"><i class="ei ei-arrow_carrot-left"></i></a></li>
+          {{ end }}
+
+          {{ range $paginator.Pagers }}
+          {{ if eq . $paginator }}
+          <li class="active">{{ .PageNumber }}</li>
+          {{ else }}
+          <li><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
+          {{ end }}
+          {{ end }}
+
+          {{ if $paginator.HasNext }}
+          <li class="next"><a href="{{ $paginator.Next.URL }}"><i class="ei ei-arrow_carrot-right"></i></a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

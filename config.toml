@@ -1,0 +1,4 @@
+baseURL = 'https://stratospheric-dev.github.io'
+languageCode = 'en-us'
+title = 'Stratospheric - Spring Boot and AWS'
+disableKinds = ["taxonomy", "taxonomyTerm"]

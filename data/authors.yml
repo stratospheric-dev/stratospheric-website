@@ -1,0 +1,64 @@
+tom:
+  name: Tom Hombergs
+  bio: >
+    <p>
+      Tom is a senior software engineer at Atlassian in Sydney, working with AWS and Spring Boot atscale.
+    </p>
+    <p>
+      He is running the successful software development blog <a href="https://reflectoring.io">reflectoring.io</a>,
+      regularly writing about Java, Spring, and AWS with the goal of explaining not only the How, but the Why of things.
+    </p>
+    <p>
+        Tom is author of <a href="https://reflectoring.io/book">Get Your Hands Dirty on Clean
+        Architecture</a>, exploring how to implement a hexagonal architecture with Spring Boot.
+    </p>
+    <p>
+        Find out more about Tom on <a href="https://reflectoring.io">reflectoring.io</a>.
+    </p>
+  title: Simplicity nerd. Engineer at Atlassian
+  image: /images/authors/tom-hombergs.jpg
+  twitterHandle: TomHombergs
+philip:
+  name: Philip Riecks
+  bio: >
+    <p>
+     Under the slogan, <i>Testing Java Applications Made Simple</i>, Philip provides recipes and tips
+     & tricks
+     to accelerate your testing success and make testing joyful (or at least less painful).
+     </p>
+     <p>
+     Apart from blogging, he's a course instructor for <a href="https://rieckpil.de/courses">various
+     Java-related online courses</a> and active <a href="https://www.youtube.com/c/rieckpil">on YouTube</a>.
+     </p>
+     <p>
+     He's an independent IT-Consultant from Berlin and working with Java, Kotlin, Spring Boot, and
+     AWS on a daily basis.
+     </p>
+     <p>
+     Find out more about Philip on <a href="https://rieckpil.de/">rieckpil.de</a>.
+     </p>
+  title: Freelance IT consultant
+  image: /images/authors/philip-riecks.jpg
+  twitterHandle: rieckpil
+bjoern:
+  name: Björn Wilmsmann
+  bio: >
+    <p>
+      Björn Wilmsmann is an independent IT consultant who helps companies transform their business
+      into a
+      digital business.
+    </p>
+    <p>
+      A longtime software entrepreneur, he’s interested in web apps and SaaS products. He designs and
+      develops business solutions and enterprise applications for his clients.
+    </p>
+    <p>
+      On his <a href="https://bjoernkw.com/blog/">blog</a> he writes about technology, software
+      development, and the software business.
+    </p>
+    <p>
+        Find out more about Björn on <a href="https://bjoernkw.com">bjoernkw.com</a>.
+    </p>
+  title: Independent IT consultant
+  image: /images/authors/bjoern-wilmsmann.jpg
+  twitterHandle: bwilmsmann

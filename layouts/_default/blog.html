@@ -1,0 +1,59 @@
+{{ define "main" }}
+
+{{ $author := (index .Site.Data.authors .Params.author) }}
+<div class="wrapper">
+  <div class="header">
+    <div class="container header-container">
+      <div class="col-lg-10 offset-lg-1 legal-text text-body">
+        <h1 class="header-title">{{ .Title }}</h1>
+        <span class="text-muted"><i class="fa fa-clock-o"></i> {{ .PublishDate.Format "January 2, 2006" }} by {{ $author.name }}</span>
+
+        <article>
+          {{- .Content -}}
+        </article>
+
+        <hr/>
+        <h3 class="text-center">Share</h3>
+        <ul class="list-inline social-icon text-center">
+          {{ $twitterLink := (print "https://twitter.com/intent/tweet?via=stratospheric42&text=" .Params.title) }}
+
+          <li class="list-inline-item"><a href="{{ $twitterLink }}"><i class="fa fa-twitter"></i></a>
+          </li>
+          {{ $facebookLink := (print "https://www.facebook.com/sharer/sharer.php?u=" .Permalink) }}
+          <li class="list-inline-item"><a href="{{ $facebookLink }}"><i
+            class="fa fa-facebook"></i></a>
+          </li>
+          {{ $linkedinLink := (print "https://www.linkedin.com/shareArticle?mini=true&url=" .Permalink ) }}
+          <li class="list-inline-item"><a href="{{ $linkedinLink }}"><i
+            class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-4">
+                <div class="text-center">
+                  <img alt="image" class="img-thumbnail m-t-xs img-fluid"
+                       src="{{ $author.image }}">
+                </div>
+              </div>
+              <div class="col-8">
+                <h3>{{ $author.name }}</h3>
+                <span class="text-muted">{{ $author.title }}</span> <br/>
+                <ul class="list-inline social-icon">
+                  {{ $twitterLinkAuthor := (print "https://twitter.com/" $author.twitterHandle) }}
+                  <li class="list-inline-item"><a href="{{ $twitterLinkAuthor }}"><i class="fa fa-twitter"></i></a>
+                  </li>
+                </ul>
+                <div class="d-none d-sm-block">
+                  {{ $author.bio | safeHTML }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

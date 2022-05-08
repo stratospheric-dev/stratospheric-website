@@ -1,0 +1,25 @@
+<meta property="og:locale" content="en_US">
+<meta property="og:description" content="{{ .Params.description }}">
+<meta property="og:site_name" content="stratospheric.dev">
+<meta property="og:title" content="{{ .Params.title }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="article">
+{{ $iso_date :=  .Date.Format "2006-01-02T15:04:05Z0700" }}
+<meta property="article:published_time" content="{{ $iso_date }}">
+
+<meta name="twitter:site" content="@stratospheric42">
+<meta name="twitter:title" content="{{ .Params.title }}">
+<meta name="twitter:description" content="{{ .Params.description }}">
+<meta name="twitter:url" content="{{ .Permalink }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@stratospheric42">
+
+{{ if .Params.featureImage }}
+    {{ $socialMediaImage := (trim (partial "feature-image-full.html" .Params.featureImage) "\n") }}
+<meta property="og:image" content="{{- $socialMediaImage -}}">
+<meta name="twitter:image" content="{{- $socialMediaImage -}}">
+{{ else }}
+    {{ $socialMediaImage := (absURL "/images/stratospheric-ebook-cover-1200x628.jpg") }}
+<meta property="og:image" content="{{- $socialMediaImage -}}">
+<meta name="twitter:image" content="{{- $socialMediaImage -}}">
+{{ end }}
