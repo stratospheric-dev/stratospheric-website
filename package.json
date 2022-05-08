@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "description": "Stratospheric static website",
   "scripts": {
+    "preinstall": "npm-force-resolutions",
     "images:optimize": "node scripts/optimize-images.js"
   },
+  "resolutions": {
+    "trim-newlines": "4.0.2",
+    "semver-regex": "4.0.2"
+  },
   "devDependencies": {
-    "imagemin": "^7.0.1",
-    "imagemin-webp": "^6.0.0"
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^7.0.0",
+    "npm-force-resolutions": "^0.0.10"
   },
   "engines": {
     "node": ">= 16"
