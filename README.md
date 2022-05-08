@@ -4,7 +4,7 @@
 
 ## Local Development
 
-1. [Install Hugo](https://gohugo.io/getting-started/installing/) (e.g. `brew install hugo`)
+1. [Install Hugo](https://gohugo.io/getting-started/installing/) (e.g., `brew install hugo`)
 2. Make sure you're running Node >= 16 `node -v`
 3. Build the thumbnail `.webp` images with `npm run images:optimize`
 4. Run the development server with `hugo server -D`
