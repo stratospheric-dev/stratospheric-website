@@ -45,7 +45,11 @@
       </ul>
       <ul class="navbar-nav">
         <li class="nav-item">
+          {{ if (in .Page.Title "Stratospheric - Online Course")  }}
+          <a class="btn nav-link learn-more-btn" href="#early-bird">Enroll Now</a>
+          {{ else }}
           <a class="btn nav-link learn-more-btn" href="/#mailing-list">Get 30% Off</a>
+          {{ end }}
         </li>
       </ul>
     </div>
