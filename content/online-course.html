@@ -4,19 +4,16 @@ description: "Stratospheric - From Zero to Production with Spring Boot and AWS"
 date: 2022-05-012T12:00:00+02:00
 ---
 <div class="wrapper">
-  <div class="header">
+  <div class="header" style="background-image: url('/images/course/cloud-background.png'); background-repeat: no-repeat; background-size: cover">
     <div class="container header-container">
-      <div class="col-lg-6 header-img-section">
-        <img alt="Online Course" src="/images/course/course.png">
-      </div>
-      <div class="col-lg-5 offset-lg-1 header-title-section">
-        <p class="header-subtitle"><i class="fa fa-desktop" aria-hidden="true"></i> Stratospheric online course</p>
+      <div class="col-lg-12 text-center header-title-section">
+        <p class="header-subtitle text-white"><i class="fa fa-desktop" aria-hidden="true"></i> Stratospheric online course</p>
         <h1 class="header-title">From Zero to Production with Spring Boot and AWS</h1>
-        <p class="header-title-text">A hands-on online course to learn all you need to know to get a Spring Boot
+        <p class="header-title-text text-white">A hands-on online course to learn all you need to know to get a Spring Boot
           application into production with
           AWS.</p>
-        <div class="learn-more-btn-section">
-          <a class="nav-link learn-more-btn btn-invert" href="#early-bird">Secure the 50% early-bird offer</a>
+        <div class="learn-more-btn-section center justify-content-center">
+          <a class="nav-link learn-more-btn btn-invert" href="#early-bird">Secure the {{< earlybirdparam "current_discount_percentage" >}} early-bird offer</a>
         </div>
       </div>
     </div>
@@ -358,10 +355,13 @@ date: 2022-05-012T12:00:00+02:00
             offer an early access / early-bird program.</p>
           <p class="services-text">The earlier you join, the less you pay. No matter when you join, you will get access to all lessons as soon as they are ready.</p>
           <p class="services-text">
-            The current early-bird price is <strong>$99</strong> (instead of the full <strong>$199</strong>) and it contains <strong>5</strong> of the <strong>45</strong> planned lessons.
+            The current early-bird price is <strong>{{< earlybirdparam "current_price" >}}</strong> (instead of the full <strong>$249</strong>) and it contains <strong>1</strong> of the <strong>45</strong> planned lessons.
           </p>
           <p class="services-text">
             The price will go up as soon as we publish the next batch of lessons in July.
+          </p>
+          <p class="services-text">
+            Last updated: <em>1st of June 2021</em>.
           </p>
         </div>
       </div>
@@ -381,14 +381,14 @@ date: 2022-05-012T12:00:00+02:00
     <div class="container services-container services-get-the-book-container">
       <div class="row justify-content-center">
         <div class="col-8 col-sm-12 text-center mb-3">
-          <a href="https://leanpub.com/c/stratospheric">
+          <a href={{< earlybirdparam "current_batch_coupon" >}}>
             <img class="img-fluid center" alt="Online Learning" width="300" height="300"
                  src="/images/course/online-learning-blue.svg">
           </a>
         </div>
         <div class="col-8 col-sm-12 text-center">
           <a class="btn btn-lg learn-more-btn btn-invert"
-             href="https://leanpub.com/c/stratospheric">Enroll on Leanpub</a>
+             href={{< earlybirdparam "current_batch_coupon" >}}>Enroll now on Leanpub</a>
         </div>
       </div>
     </div>
