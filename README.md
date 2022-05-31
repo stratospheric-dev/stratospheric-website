@@ -1,7 +1,5 @@
 # Stratospheric Landing Page & Blog
 
-**Important Hint**: Don't directly commit to the branch `gh-pages`. This branch is used by the Hugo GitHub Actions to store the static content and is automatically updated on each commit to `master`.
-
 ## Local Development
 
 1. [Install Hugo](https://gohugo.io/getting-started/installing/) (e.g., `brew install hugo`)
