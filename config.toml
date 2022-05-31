@@ -2,3 +2,6 @@ baseURL = 'https://stratospheric.dev'
 languageCode = 'en-us'
 title = 'Stratospheric - Spring Boot and AWS'
 disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[markup.goldmark.renderer]
+unsafe = true
