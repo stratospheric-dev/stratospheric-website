@@ -35,7 +35,7 @@ The course comprises these three main parts:
 - Part II: Spring Boot & AWS
 - Part III: Production Readiness with AWS
 
-To provide you with both a first glimpse at what you're going to get and some immediate hands-on value, the initial video on "Deployment Options with AWS" from part I is available already!
+To provide you with both a first glimpse at what you're going to get, as well as some immediate hands-on value, the initial video on "Deployment Options with AWS" from part I is available already!
 
 You can find further information about this early-bird program [here](https://stratospheric.dev/online-course/#early-bird).
 
