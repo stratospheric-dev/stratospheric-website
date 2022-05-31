@@ -11,7 +11,7 @@ slug: stratospheric-online-course-early-bird-start
 
 Having just returned from [Spring I/O 2022](https://2022.springio.net/) in Barcelona - where, incidentally, [the authors of Stratospheric met in person for the first time](https://twitter.com/TomHombergs/status/1529746181848551424) - we can say that there are quite a few exciting things in store for Spring Boot and Spring in the near future, particularly when it comes to the major upgrades to Spring 6 and Spring Boot 3, both due later this year.
 
-Right now, though, and as promised in our previous newsletter, we'd like to tell you bit more about the upcoming [Stratospheric online course](https://leanpub.com/c/stratospheric):
+Right now, though, and as promised in our previous newsletter, we'd like to tell you bit more about the upcoming **Stratospheric online course**:
 
 First things first, in keeping with our agile release tradition for the ebook, we decided to release the course in an incremental fashion as well.
 
