@@ -23,7 +23,7 @@ That means that, initially, only the first few lessons will available. We’ll a
 
 **The price of the course will go up with each new set of lessons.**
 
-Once you've purchased the course, with each batch of lessons you’ll automatically get access to the new lessons for free! So, the sooner you get access to the course, the better the deal you make!
+Once you've purchased the course, with each batch of lessons you’ll automatically get access to the new lessons for free! So, the sooner you get access to the course, the better the deal you make.
 
 The course will come both as a bundle with the ebook (at a final price of $269) and as a stand-alone version (at $249 for the final release. Those of you who've already purchased the ebook will get the final release of the course at a $50 discount (i.e. for $199).
 
@@ -35,7 +35,7 @@ The course comprises these three main parts:
 - Part II: Spring Boot & AWS
 - Part III: Production Readiness with AWS
 
-To provide you with both a first glimpse at what you're going to get, as well as some immediate hands-on value, the initial video on "Deployment Options with AWS" from part I is available already!
+To provide you with both a first glimpse at what you're going to get, as well as some immediate hands-on value, the initial video on "Deployment Options with AWS" from part I is available already.
 
 You can find further information about the early-bird program [here](https://stratospheric.dev/online-course/#early-bird).
 
