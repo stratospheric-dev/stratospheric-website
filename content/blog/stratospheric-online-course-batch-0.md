@@ -15,7 +15,7 @@ Having just returned from [Spring I/O 2022](https://2022.springio.net/) in Barce
 
 ... we can say that there are quite a few exciting things in store for Spring Boot and Spring in the near future, particularly when it comes to the major upgrades to Spring 6 and Spring Boot 3, both due later this year.
 
-Right now, though, and as promised in our previous newsletter, we'd like to tell you bit more about the upcoming **Stratospheric online course**:
+Right now, though, and as promised in our previous newsletter, we'd like to tell you a bit more about the upcoming **Stratospheric online course**:
 
 First things first, in keeping with our agile release tradition for the ebook, we decided to release the course in an incremental fashion as well.
 
@@ -39,4 +39,4 @@ To provide you with both a first glimpse at what you're going to get and some im
 
 You can find further information about this early-bird program [here](https://stratospheric.dev/online-course/#early-bird).
 
-» [Enroll now for the Stratospheric online course](https://stratospheric.dev/online-course/)
+» [Enroll now for the Stratospheric online course](https://stratospheric.dev/online-course/).
