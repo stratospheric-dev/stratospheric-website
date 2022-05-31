@@ -12,6 +12,12 @@
 9. Contact Section
 10. Footer
 -------------------- */
+/* CUSTOM */
+.twitter-tweet-rendered {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
 
 /* 1. GENERAL */
 * {
