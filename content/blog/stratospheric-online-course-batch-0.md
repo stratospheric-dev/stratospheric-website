@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Stratospheric Online Course Early Bird Start 🥳
+title: Stratospheric Online Course Early-Bird Start 🥳
 description: "Release notes for the first release of the Stratospheric online course"
 author: philip
 publishdate: "2022-05-31"
