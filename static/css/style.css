@@ -90,7 +90,7 @@ button:focus {
 }
 
 .navbar {
-    background-color: transparent;
+    background-color: white;
     padding-top: 15px;
     padding-bottom: 15px;
     -webkit-transition: all .2s linear;
