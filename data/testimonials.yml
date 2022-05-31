@@ -6,6 +6,7 @@ feedback:
       If you are Spring Boot developer and looking to explore how to deploy your applications onto AWS, then you need to check out this book.
       The authors have put together a well thought out and easy to follow book that walks you through the typical use cases you will need.
       Perfect for beginners and an invaluable reference guide for those more experienced, they continue to add new content to this book and I cannot say enough great things about it.
+
   - name: Espen Westgaard
     picture: /images/empty-user-thumbnail.png
     title: CTO and CISO at Datek AS, Norway
@@ -13,6 +14,16 @@ feedback:
       Great book covering many best practices of modern cloud based infrastructure setup,
       application development and operations using Spring Boot and AWS. Regardless of whether
       you're a novice or seasoned developer, I highly recommend this book.
+
+  - name: Grr Igd
+    picture: /images/empty-user-thumbnail.png
+    title: Software Developer
+    description: >
+      If you want to know how to deploy your Spring Boot Application to the cloud and seek clarity on the available services (AWS), Stratospheric is an excellent resource for you.
+      I found the explanations lucid and succinct with excellent worked examples.
+      I would highly recommend this book - it's great value and I look forward to the online course also.
+
+
   - name: AbdulRahman elRawas
     picture: /images/abdulrahman-elrawas.jpg
     title: Software Developer
@@ -23,10 +34,3 @@ feedback:
       writers went just deep enough (and not too much) into each service they tackled and included
       practical exercises to follow along the way. That's giving confidence and instilling the
       learning naturally.
-  - name: Grr Igd
-    picture: /images/empty-user-thumbnail.png
-    title: Software Developer
-    description: >
-      If you want to know how to deploy your Spring Boot Application to the cloud and seek clarity on the available services (AWS), Stratospheric is an excellent resource for you.
-      I found the explanations lucid and succinct with excellent worked examples.
-      I would highly recommend this book - it's great value and I look forward to the online course also.
