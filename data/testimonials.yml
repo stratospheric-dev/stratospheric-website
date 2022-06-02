@@ -8,24 +8,24 @@ feedback:
       Perfect for beginners and an invaluable reference guide for those more experienced, they continue to add new content to this book and I cannot say enough great things about it.
 
   - name: Espen Westgaard
-    picture: /images/empty-user-thumbnail.png
+    picture: /images/testimonials/empty-user-thumbnail.png
     title: CTO and CISO at Datek AS, Norway
     description: >
       Great book covering many best practices of modern cloud based infrastructure setup,
       application development and operations using Spring Boot and AWS. Regardless of whether
       you're a novice or seasoned developer, I highly recommend this book.
 
-  - name: Grr Igd
-    picture: /images/empty-user-thumbnail.png
-    title: Software Developer
+  - name: Dennis Traub
+    picture: /images/testimonials/dennis-traub.jpg
+    title: Developer Advocate, Amazon Web Services (AWS)
     description: >
-      If you want to know how to deploy your Spring Boot Application to the cloud and seek clarity on the available services (AWS), Stratospheric is an excellent resource for you.
-      I found the explanations lucid and succinct with excellent worked examples.
-      I would highly recommend this book - it's great value and I look forward to the online course also.
-
+      One of the most-frequent questions I get from developers is how they can get started with AWS without having to first learn and understand all the details of the hundreds of available services.
+      In their book, Tom, Philip, and Björn do an excellent job, initially focusing on just a few basic services to quickly get you started.
+      Once your application is up and running, you gradually add additional capabilities, like continuous integration, monitoring, alerting, and automated incident response.
+      If you are a Java developer wanting to learn how to build and run your applications in the cloud, Stratospheric is exactly what you need.
 
   - name: AbdulRahman elRawas
-    picture: /images/abdulrahman-elrawas.jpg
+    picture: /images/testimonials/abdulrahman-elrawas.jpg
     title: Software Developer
     description: >
       This is an excellent book for every Spring Boot developer who wants to level up their
@@ -34,3 +34,12 @@ feedback:
       writers went just deep enough (and not too much) into each service they tackled and included
       practical exercises to follow along the way. That's giving confidence and instilling the
       learning naturally.
+
+  - name: Grr Igd
+    picture: /images/testimonials/empty-user-thumbnail.png
+    title: Software Developer
+    description: >
+      If you want to know how to deploy your Spring Boot Application to the cloud and seek clarity on the available services (AWS), Stratospheric is an excellent resource for you.
+      I found the explanations lucid and succinct with excellent worked examples.
+      I would highly recommend this book - it's great value and I look forward to the online course also.
+
