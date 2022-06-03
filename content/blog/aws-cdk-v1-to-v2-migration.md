@@ -9,7 +9,9 @@ toc: true
 slug: java-aws-cdk-v1-to-v2-migration-guide
 ---
 
-This article provides some guidance and tips for migrating your existing infrastructure setup from the AWS CDK v1 to v2. We've recently performed this migration for the entire AWS CDK Java infrastructure for Stratospheric.
+This article provides some guidance and tips for migrating your existing infrastructure setup from the AWS CDK v1 to v2.
+
+We've recently performed this migration for the entire AWS CDK Java infrastructure for [Stratospheric](/).
 
 ## Adjusting the Java Infrastructure Setup
 
