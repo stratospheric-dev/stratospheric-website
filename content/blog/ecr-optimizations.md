@@ -17,15 +17,15 @@ Essentially, optimizing ECS deployment speeds boils down to:
 
 - Adapting ECS agent settings to both reduced shutdown grace periods and prefer cached Docker images.
 - Customizing your load balancer settings to reduce keep-alive time for connections and limit health check intervals.
-- Decreasing the minium number of healthy tasks in the deployment configuration to allow ECS to start more tasks in parallel.
+- Decreasing the minimum number of healthy tasks in the deployment configuration to allow ECS to start more tasks in parallel.
 
-Since our own deployments for our [sample Todo application](https://app.stratospheric.dev/) used to clock in at 12-13 minutes on average, we thought we might give those optimizations a try, to see if we can shave off at least some that time. After all, fast deployments and - consequently - fast turnaround times make for a vital part of a good developer experience. 
+Since our own deployments for our [sample Todo application](https://app.stratospheric.dev/) used to clock in at 12-13 minutes on average, we thought we might give those optimizations a try, to see if we can shave off at least some of that time. After all, fast deployments and - consequently - fast turnaround times make for a vital part of a good developer experience. 
 
 Being able to see the effect of our changes in a test environment or production in a timely manner allows us to test, experiment, and iterate rapidly. A product that can be changed frequently and easily, in turn, is much more amenable to changing requirements and an approach to product developments that favors experiments and frequent iterations over rigid planning and huge monolithic deployments.
 
 Now, since we're using [ECS on Fargate](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html) (i.e. we don't specify our own EC2 instances, because Fargate does that for us), we don't directly use [Amazon Machine Images (AMIs)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html), but rather the abstractions [AWS Fargate](https://aws.amazon.com/fargate/) provides us with.
 
-Unfortunately, this (apparently) precludes our deployment process from using the environment-based optimizations outlined in both Nathan's article and Tobias's tweet: As detailed in (the official AWS documention and Amazon ECS container agent configuration)[https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html]
+Unfortunately, this (apparently) precludes our deployment process from using the environment-based optimizations outlined in both Nathan's article and Tobias's tweet: As detailed in (the official AWS documentation and Amazon ECS container agent configuration)[https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html]
 the `ECS_CONTAINER_STOP_TIMEOUT` and `ECS_IMAGE_PULL_BEHAVIOR` environment variables have to be set in the Amazon ECS-optimized AMI's `/etc/ecs/ecs.config` configuration file.
 
 However, with Fargate we neither have access to the underlying AMI nor the configuration files it contains. So far, we haven't been able to find an alternative way of customizing these settings. If you know how to achieve this with Fargate, [please get in touch](mailto:info@stratospheric.dev).
