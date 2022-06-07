@@ -3,7 +3,7 @@ layout: blog
 title: Faster ECS Deployments
 description: "Optimizations in our ECS deployment setup"
 author: bjoern
-publishdate: "2022-09-06"
+publishdate: "2022-06-09"
 featureImage: containers
 toc: true
 slug: faster-ecs-deployments
