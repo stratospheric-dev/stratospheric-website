@@ -1,12 +1,14 @@
-{{ range $.Site.Data.testimonials.feedback }}
-<div class="col-md-6 mt-2">
-  <div class="testimonial p-3 bg-primary text-center rounded">
-    <img alt="Quote Left" src="/images/quote-left.png">
-    <p>{{ .description }}</p>
-    <img alt="{{ .name }}" class="rounded-circle mt-1"
-         src="{{ .picture }}" width="50">
-    <h5>{{ .name }}</h5>
-    <p class="mt-1">{{ .title }}</p>
+<div class="card-columns">
+  {{ range $.Site.Data.testimonials.feedback }}
+  <div class="card">
+    <div class="testimonial p-3 bg-primary text-center rounded">
+      <img alt="Quote Left" src="/images/quote-left.png">
+      <p class="mb-2">{{ .description | safeHTML }}</p>
+      <img alt="{{ .name }}" class="rounded-circle mt-1"
+           src="{{ .picture }}" width="50">
+      <h5>{{ .name }}</h5>
+      <p class="mt-1">{{ .title }}</p>
+    </div>
   </div>
+  {{ end }}
 </div>
-{{ end }}
