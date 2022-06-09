@@ -70,7 +70,11 @@ In `Service`, on the other hand, we added a new `deregistrationDelayConfiguratio
 ```
 // ...
     List<CfnTargetGroup.TargetGroupAttributeProperty> deregistrationDelayConfiguration = List.of(
-      CfnTargetGroup.TargetGroupAttributeProperty.builder().key("deregistration_delay.timeout_seconds").value("5").build()
+      CfnTargetGroup.TargetGroupAttributeProperty
+        .builder()
+        .key("deregistration_delay.timeout_seconds")
+        .value("5")
+        .build()
     );
 // ...
 ```
