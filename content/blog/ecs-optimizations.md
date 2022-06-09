@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Faster ECS Deployments
+title: Faster Amazon ECS Container Deployments
 description: "Optimizations in our ECS deployment setup"
 author: bjoern
 publishdate: "2022-06-09"
