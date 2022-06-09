@@ -79,6 +79,6 @@ In `Service`, on the other hand, we added a new `deregistrationDelayConfiguratio
 // ...
 ```
 
-With these rather small changes, our deployment times are now down to about 5-6 minutes on average (from an original 12-13 minutes)! So, we're talking about a 50 percent improvement here, which is no small feat, especially in case of frequent, parallel builds and deployments.
+With these rather small changes, our deployment times are now down to about 5-6 minutes on average (from an original 12-13 minutes)! So, we're talking about a **50 percent improvement** here, which is no small feat, especially in case of frequent, parallel builds and deployments.
 
 That's it for the relevant modifications to our setup in terms of optimizing ECR deployments. If you have any questions, comments, or suggestions [please get in touch](mailto:info@stratospheric.dev).
