@@ -30,7 +30,7 @@ the `ECS_CONTAINER_STOP_TIMEOUT` and `ECS_IMAGE_PULL_BEHAVIOR` environment varia
 
 However, with Fargate we neither have access to the underlying AMI nor the configuration files it contains. So far, we haven't been able to find an alternative way of customizing these settings. If you know how to achieve this with Fargate, [please get in touch](mailto:info@stratospheric.dev).
 
-Anyway, there were still some potential optimization to try out with our own setup, that is those about the health check intervals and timeouts.
+Anyway, there were still some potential optimizations to try out with our own setup, that is those about the health check intervals and timeouts.
 
 To try and address those opportunities for improvement, we had to take a look at our [Stratospheric CDK Constructs library](https://github.com/stratospheric-dev/cdk-constructs), which provides the [CDK constructs](https://docs.aws.amazon.com/cdk/v2/guide/constructs.html) for our core infrastructure. Specifically, we needed to modify our [`Network`](https://github.com/stratospheric-dev/cdk-constructs/blob/main/src/main/java/dev/stratospheric/cdk/Network.java) and [`Service`](https://github.com/stratospheric-dev/cdk-constructs/blob/main/src/main/java/dev/stratospheric/cdk/Service.java) classes, because those are the ones responsible for our load balancer and setup.
 
