@@ -6,7 +6,7 @@ author: bjoern
 publishdate: "2022-06-09"
 featureImage: containers
 toc: true
-slug: faster-ecs-deployments
+slug: faster-amazon-ecs-container-deployments
 ---
 
 Some time ago, [Nathan Peck](https://nathanpeck.com/), who is a senior developer advocate for Container Services at AWS,  wrote [this in-depth article on speeding up Amazon ECS container deployments](https://nathanpeck.com/speeding-up-amazon-ecs-container-deployments/).
