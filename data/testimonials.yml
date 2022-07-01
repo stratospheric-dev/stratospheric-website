@@ -52,6 +52,48 @@ feedback:
       <br/><br/>
       I highly appreciate, that the book even covers monitoring and creating a deployment pipeline.
 
+  - name: Branislav Beňo
+    picture: /images/testimonials/branislav-beno.jpg
+    title: Software Developer at Siemens
+    description: >
+      I thought that learning how to deploy spring boot application to the cloud, would require unbearable long time.
+      <br/><br/>
+      But then came this book, and my worries vanished. On less than 500 pages, I found all I was looking for.
+      <br/><br/>
+      From deployment preparation, through application connecting with required AWS services to deployment realization and application monitoring.
+      <br/><br/>
+      And what is the best, all accompanied by useful code examples and access to related GitHub repository.
+
+  - name: Gregory Zak
+    picture: /images/testimonials/empty-user-thumbnail.png
+    title: Senior Java Developer
+    description: >
+      Not just the theory... Delivers on the implementation.
+      <br/><br/>
+      Great book that easily blends the integration of the Spring Boot framework with Amazon’s AWS services, progressing from overview to deliverables.
+      <br/><br/>
+      Excellent logical organization of the fundamental AWS services that a developer can easily learn and retain in a step by step manner.
+
+  - name: Mirek Krenc
+    picture: /images/testimonials/empty-user-thumbnail.png
+    title: Software Developer
+    description: >
+      The book is great!
+      <br/><br/>
+      I could just leave the comment like this and it should be enough but let me explain a little deeply why this opinion.
+      <br/><br/>
+      I think there is no other such complete material on the Earth, that takes you out of the just Spring Boot Developer to Spring Boot Developer with AWS working knowledge.
+      <br/><br/>
+      I haven't finish the book yet as there are a lot of material but I am sure that after finishing the book I will be a very confident developer with cloud technologies in my portfolio
+
+  - name: Asiel Leal Celdeiro
+    picture: /images/testimonials/asiel-leal-celdeiro.jpg
+    title: Software Developer
+    description: >
+      Excellent book that covers from theoretical aspects to hands-on examples on how to create a production-grade Spring Boot application deployed using AWS.
+      <br/><br/>
+      I consider it a part of my toolkit already :)
+
   - name: Grr Igd
     picture: /images/testimonials/empty-user-thumbnail.png
     title: Software Developer
@@ -61,3 +103,10 @@ feedback:
       <br/><br/>
       I would highly recommend this book - it's great value and I look forward to the online course also.
 
+  - name: Eliud Rojas
+    title: CTO
+    picture: /images/testimonials/empty-user-thumbnail.png
+    description: >
+      This is the book that every Java/AWS developer must read.
+      <br/><br/>
+      Almost a masterpiece.
