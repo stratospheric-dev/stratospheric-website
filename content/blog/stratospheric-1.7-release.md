@@ -17,6 +17,10 @@ In short, with the revision v1.7 of Stratospheric, we changed the following:
 
 - M1 support for local development (for more head over [here](https://rieckpil.de/java-development-on-an-apple-m1-a-one-year-review/))
 - Alignment of properties over profile (rationale [here](https://reflectoring.io/dont-use-spring-profile-annotation/))
+- A bug creeped into the code base for the sample Todo Application Refactored the `TodoController` and `TodoService`
+
+We took this bug as a to invest time in a sophisticated and covering test suite. We've added a integration test to cover the CRUD operations for our `Todo` entity and added a basic web test to interact with the OAuth2 login and ensure the page renders. There's no dedicated section in the book about testing yet. After finishing our current online course efforts we'll get back to this topic. In the meantime, check out the various testing articles on [Philip's blog](https://rieckpil.de/all-posts/).
+
 - Refactoring, a bit sloppy. Focus lies on the integration part
 - Not yet in the book, testing part, sneak peek in inside `src/test/resource`
 
