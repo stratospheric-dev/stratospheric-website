@@ -1,10 +1,10 @@
 ---
 layout: blog
 title: "Stratospheric 1.5 Release"
-description: "Release notes for the Stratospheric 1.5 Release"
+description: "Release notes for the Stratospheric 1.5 ebook release"
 author: bjoern
 publishdate: "2022-04-12"
-featureImage: release-image-cloud
+featureImage: cloud-rocket-launch-three
 toc: true
 slug: stratospheric-1.5-release
 date: 2022-04-12T23:08:05+02:00
