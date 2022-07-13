@@ -19,7 +19,7 @@ Once we'll have finished our current [online course efforts](https://stratospher
 
 Furthermore, with the revision v1.7 of Stratospheric, we changed the following:
 
-- We added Apple M1 processor (ARM63) support for local development by upgrading to the latest Keycloak and LocalStack Docker images, respectively.
+- We added Apple M1 processor (ARM64) support for local development by upgrading to the latest Keycloak and LocalStack Docker images, respectively.
 - We favored custom properties over Spring profiles for loading beans and configuring the application (see [this article](https://reflectoring.io/dont-use-spring-profile-annotation/) for the rationale behind this).
 - Basic refactoring efforts for the `TodoService` and `TodoController`. The previous implementation admittedly was a bit sloppy.
 
