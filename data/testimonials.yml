@@ -1,6 +1,6 @@
 feedback:
   - name: Ricardo Sueiras
-    picture: /images/testimonials/ricardo-sueiras.png
+    picture: ricardo-sueiras.png
     title: Principal Advocate in Open Source - Amazon Web Services (AWS)
     description: >
       If you are Spring Boot developer and looking to explore how to deploy your applications onto AWS, then you need to check out this book.
@@ -10,7 +10,7 @@ feedback:
       Perfect for beginners and an invaluable reference guide for those more experienced, they continue to add new content to this book and I cannot say enough great things about it.
 
   - name: AbdulRahman elRawas
-    picture: /images/testimonials/abdulrahman-elrawas.jpg
+    picture: abdulrahman-elrawas.jpg
     title: Software Developer
     description: >
       This is an excellent book for every Spring Boot developer who wants to level up their
@@ -22,7 +22,7 @@ feedback:
       learning naturally.
 
   - name: Dennis Traub
-    picture: /images/testimonials/dennis-traub.jpg
+    picture: dennis-traub.jpg
     title: Developer Advocate, Amazon Web Services (AWS)
     description: >
       One of the most-frequent questions I get from developers is how they can get started with AWS without having to first learn and understand all the details of the hundreds of available services.
@@ -34,7 +34,7 @@ feedback:
       If you are a Java developer wanting to learn how to build and run your applications in the cloud, Stratospheric is exactly what you need.
 
   - name: Espen Westgaard
-    picture: /images/testimonials/empty-user-thumbnail.png
+    picture: empty-user-thumbnail.png
     title: CTO and CISO at Datek AS, Norway
     description: >
       Great book covering many best practices of modern cloud based infrastructure setup,
@@ -43,7 +43,7 @@ feedback:
       Regardless of whether you're a novice or seasoned developer, I highly recommend this book.
 
   - name: Andreas Wittig
-    picture: /images/testimonials/andreas-wittig.png
+    picture: andreas-wittig.png
     title: AWS Consultant and Co-Author of Amazon Web Service in Action
     description: >
       Björn, Philip, and Tom do a great job on teaching how to build a Java application on AWS.
@@ -52,8 +52,50 @@ feedback:
       <br/><br/>
       I highly appreciate, that the book even covers monitoring and creating a deployment pipeline.
 
+  - name: Branislav Beňo
+    picture: branislav-beno.jpg
+    title: Software Developer at Siemens
+    description: >
+      I thought that learning how to deploy Spring Boot application to the cloud, would require unbearable long time.
+      <br/><br/>
+      But then came this book, and my worries vanished. On less than 500 pages, I found all I was looking for.
+      <br/><br/>
+      From deployment preparation, through application connecting with required AWS services to deployment realization and application monitoring.
+      <br/><br/>
+      And what is the best, all accompanied by useful code examples and access to related GitHub repository.
+
+  - name: Gregory Zak
+    picture: empty-user-thumbnail.png
+    title: Senior Java Developer
+    description: >
+      Not just the theory... Delivers on the implementation.
+      <br/><br/>
+      Great book that easily blends the integration of the Spring Boot framework with Amazon’s AWS services, progressing from overview to deliverables.
+      <br/><br/>
+      Excellent logical organization of the fundamental AWS services that a developer can easily learn and retain in a step by step manner.
+
+  - name: Mirek Krenc
+    picture: empty-user-thumbnail.png
+    title: Software Developer
+    description: >
+      The book is great!
+      <br/><br/>
+      I could just leave the comment like this and it should be enough but let me explain a little deeply why this opinion.
+      <br/><br/>
+      I think there is no other such complete material on the Earth, that takes you out of the just Spring Boot Developer to Spring Boot Developer with AWS working knowledge.
+      <br/><br/>
+      I haven't finish the book yet as there are a lot of material but I am sure that after finishing the book I will be a very confident developer with cloud technologies in my portfolio
+
+  - name: Asiel Leal Celdeiro
+    picture: asiel-leal-celdeiro.jpg
+    title: Software Developer
+    description: >
+      Excellent book that covers from theoretical aspects to hands-on examples on how to create a production-grade Spring Boot application deployed using AWS.
+      <br/><br/>
+      I consider it a part of my toolkit already :)
+
   - name: Grr Igd
-    picture: /images/testimonials/empty-user-thumbnail.png
+    picture: empty-user-thumbnail.png
     title: Software Developer
     description: >
       If you want to know how to deploy your Spring Boot Application to the cloud and seek clarity on the available services (AWS), Stratospheric is an excellent resource for you.
@@ -61,3 +103,10 @@ feedback:
       <br/><br/>
       I would highly recommend this book - it's great value and I look forward to the online course also.
 
+  - name: Eliud Rojas
+    title: CTO
+    picture: empty-user-thumbnail.png
+    description: >
+      This is the book that every Java/AWS developer must read.
+      <br/><br/>
+      Almost a masterpiece.

@@ -1,10 +1,10 @@
 ---
 layout: blog
 title: Stratospheric 1.6 Release 🥳
-description: "Release notes for the Stratospheric 1.6 Release"
+description: "Release notes for the Stratospheric 1.6 ebook release"
 author: philip
 publishdate: "2022-03-31"
-featureImage: release-image-cloud
+featureImage: cloud-rocket-launch-two
 toc: true
 slug: stratospheric-1.6-release
 ---
