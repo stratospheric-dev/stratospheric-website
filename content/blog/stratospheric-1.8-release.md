@@ -4,7 +4,7 @@ title: "1 Year Anniversary Sale and Release 1.8"
 description: "1 Year Anniversary Sale and Release 1.8"
 author: tom
 publishdate: "2022-08-01"
-featureImage: cloud-rocket-launch-one
+featureImage: cloud-rocket-launch-four
 toc: true
 slug: stratospheric-1.8-release
 ---
