@@ -40,4 +40,4 @@ If you've already purchased the eBook, you can now download the latest version a
 
 For further questions, feedback, or errata, either drop us a message ([info@stratospheric.dev](info@stratospheric.dev)) or open an [issue at the GitHub repository](https://github.com/stratospheric-dev/stratospheric/issues).
 
-PS: We plan to upload the next set of videos for the [Stratospheric online course](https://stratospheric.dev/online-course/) at the end of October.
+PS: We plan to upload the next set of videos for the [Stratospheric online course](https://stratospheric.dev/online-course/) at the beginning of November.
