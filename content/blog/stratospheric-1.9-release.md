@@ -3,7 +3,7 @@ layout: blog
 title: "Stratospheric 1.9 Release 🥳"
 description: "Release notes for the Stratospheric 1.9 ebook release"
 author: philip
-publishdate: "2022-10-03"
+publishdate: "2022-10-04"
 featureImage: cloud-rocket-launch-five
 toc: true
 slug: stratospheric-1.9-release
