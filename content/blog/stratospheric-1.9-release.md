@@ -15,7 +15,7 @@ With our current [Stratospheric online course](https://stratospheric.dev/online-
 
 {{< responsiveimage "/images/releases/cloud-watch-dashboard.png" "Stratospheric Operational Amazon CloudWatch Dashboard" >}}
 
-While we explain the basic building blocks on how to create an Amazon CloudWatch dashboard with the AWS CDK, we never had a ready-to-use dashboard with key metrics for the Todo application.
+While we explain the basic building blocks on how to create an Amazon CloudWatch dashboard with the AWS CDK, so far, we've never had a ready-to-use dashboard with key metrics for the Todo application.
 
 The [`OperationalCloudWatchDasbord`](https://github.com/stratospheric-dev/stratospheric/blob/main/cdk/src/main/java/dev/stratospheric/todoapp/cdk/OperationalCloudWatchDashboard.java) fills this gap and visualizes the following information:
 
