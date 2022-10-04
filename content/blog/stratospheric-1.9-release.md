@@ -11,7 +11,7 @@ slug: stratospheric-1.9-release
 
 It's time for a new Stratospheric eBook release 🥳
 
-With our current [Stratospheric online course](https://stratospheric.dev/online-course/) recording efforts, we added a ready-to-use blueprint for an operational Amazon CloudWatch Dashboard for our Spring Boot application:
+With our current [Stratospheric online course](https://stratospheric.dev/online-course/) recording efforts, we added a ready-to-use blueprint for an operational Amazon CloudWatch dashboard for our Spring Boot application:
 
 {{< responsiveimage "/images/releases/cloud-watch-dashboard.png" "Stratospheric Operational Amazon CloudWatch Dashboard" >}}
 
