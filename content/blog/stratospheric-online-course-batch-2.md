@@ -4,7 +4,7 @@ title: "Stratospheric Online Course Early-Bird Batch #2"
 description: "Batch #1 is closed. Long live Batch #2!"
 author: tom
 publishdate: "2022-09-07"
-featureImage: stratospheric-online-course-preview-image
+featureImage: stratospheric-online-course-release-batch-2
 toc: true
 slug: stratospheric-online-course-batch-2
 ---
