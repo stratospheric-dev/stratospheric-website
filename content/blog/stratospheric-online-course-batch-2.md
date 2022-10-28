@@ -21,7 +21,7 @@ The new videos at a glance:
 
 **Part III: Production Readiness with AWS**
 
-- Analyzing Sturctured Logs with Amazon CloudWatch
+- Analyzing Structured Logs with Amazon CloudWatch
 - Monitoring Metrics with Amazon CloudWatch
 - Sending Default Spring Boot Metrics to Amazon CloudWatch
 - Sending Custom Micrometer Metrics to Amazon CloudWatch
