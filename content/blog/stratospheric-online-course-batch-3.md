@@ -9,7 +9,7 @@ toc: true
 slug: stratospheric-online-course-batch-3
 ---
 
-We're happy to announce the next eight course lessons of the Stratospheric online course. With this release, we'll close our early-bird batch #2 and start the second last batch.
+We're happy to announce the next eight course lessons of the Stratospheric online course. With this release, we'll close our early-bird batch #2 and start the second to last batch.
 
 We pushed our completeness bar on Leanpub to 60% and are now looking forward to finishing the course in the upcoming months.
 
