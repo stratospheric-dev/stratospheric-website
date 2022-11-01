@@ -22,6 +22,7 @@ The new videos at a glance:
 
 **Part II: Spring Boot & AWS**
 
+- Building User Registration and Login with Amazon Cognito Part I
 - Building User Registration and Login with Amazon Cognito Part II
 - Building User Registration and Login with Amazon Cognito Part III
 
