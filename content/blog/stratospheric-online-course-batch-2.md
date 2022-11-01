@@ -4,7 +4,7 @@ title: "Stratospheric Online Course Early-Bird Batch #2"
 description: "Batch #1 is closed. Long live Batch #2!"
 author: tom
 publishdate: "2022-09-07"
-featureImage: stratospheric-online-course-preview-image
+featureImage: stratospheric-online-course-release-batch-2
 toc: true
 slug: stratospheric-online-course-batch-2
 ---
@@ -21,7 +21,7 @@ The new videos at a glance:
 
 **Part III: Production Readiness with AWS**
 
-- Analyzing Sturctured Logs with Amazon CloudWatch
+- Analyzing Structured Logs with Amazon CloudWatch
 - Monitoring Metrics with Amazon CloudWatch
 - Sending Default Spring Boot Metrics to Amazon CloudWatch
 - Sending Custom Micrometer Metrics to Amazon CloudWatch
