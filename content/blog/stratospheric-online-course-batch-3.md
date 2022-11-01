@@ -18,10 +18,10 @@ The new videos at a glance:
 **Part I: Deploying with AWS**
 
 - Getting Started with CDK
+- CDK Best Practices
 
 **Part II: Spring Boot & AWS**
 
-- Building User Registration and Login with Amazon Cognito Part I
 - Building User Registration and Login with Amazon Cognito Part II
 - Building User Registration and Login with Amazon Cognito Part III
 
