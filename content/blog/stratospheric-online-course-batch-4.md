@@ -9,9 +9,9 @@ toc: true
 slug: stratospheric-online-course-batch-4
 ---
 
-We're happy to announce the next three course lessons of the Stratospheric online course. With this release, we'll close our early-bird batch #3 and start our last batch.
+We're happy to announce the next three lessons of the Stratospheric online course. With this release, we'll close our early-bird batch #3 and start our next batch.
 
-We pushed our completeness bar on Leanpub to 70% and are now looking forward to finishing the course in the upcoming months.
+We pushed our completeness bar on Leanpub to 75% and are now looking forward to finishing the course in the upcoming months.
 
 The new videos at a glance:
 
@@ -23,10 +23,6 @@ The new videos at a glance:
 **Part II: Spring Boot & AWS**
 
 - Sharing Todos with Amazon SQS and Amazon SES
-
-**Part III: Production Readiness with AWS**
-
-No new video within this batch.
 
 **We're planning with a total of about 45 videos in the final release** that will go well together with the book.
 
