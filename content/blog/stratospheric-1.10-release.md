@@ -44,4 +44,4 @@ If you've already purchased the eBook, you can now download the latest version a
 
 For further questions, feedback, or errata, either drop us a message ([info@stratospheric.dev](info@stratospheric.dev)) or open an [issue at the GitHub repository](https://github.com/stratospheric-dev/stratospheric/issues).
 
-PS: We're currently preparing and recording the remaining lessons for the [Stratospheric online course](https://stratospheric.dev/online-course/). Up until the last course lesson is available, you can enroll with a discount as part of our [early-bird offer](http://localhost:1313/online-course/#early-bird).
+PS: We're currently preparing and recording the remaining lessons for the [Stratospheric online course](https://stratospheric.dev/online-course/). Up until the last course lesson is available, you can enroll with a discount as part of our [early-bird offer](https://stratospheric.dev/online-course/#early-bird).
