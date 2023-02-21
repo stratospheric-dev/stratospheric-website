@@ -11,9 +11,9 @@ slug: stratospheric-1.10-release
 
 It's time for a new Stratospheric eBook release 🥳
 
-This time it's a pretty big one, as we've migrated the Stratospheric sample Todo application to Spring Boot 3.0 and Spring Cloud 3.0.
+This time it's a pretty big one, as we've migrated the Stratospheric sample Todo application to **Spring Boot 3.0 and Spring Cloud AWS 3.0**.
 
-The release of Spring Boot 3.0 marks a new era of developing applications with the Spring Framework. 4.5 years after the release of Spring Boot 2.0, we're now looking into a bright future and can make the most of Spring Framework 6, Java 17, and GraalVM.
+The release of Spring Boot 3.0 marks a new era of developing applications with the Spring Framework. 4.5 years after the release of Spring Boot 2.0, we're now looking into a bright future and can make the most of **Spring Framework 6, Java 17, and GraalVM**.
 
 Even though [Spring Boot 3.0 went GA in November 2022](https://spring.io/blog/2022/11/24/spring-boot-3-0-goes-ga), it took us some time to incorporate the changes and wait for a compatible [Spring Cloud AWS](https://awspring.io/) version. With the release of Spring Cloud AWS 3.0.0-RC1 we doubled down on the migration and wanted to provide a Spring Boot 3.0 compatible version of the ebook as soon as possible.
 
@@ -34,7 +34,7 @@ For a side-by-side comparison of the required code changes for the migration, ha
 
 Furthermore, we simplified the retrieval of the Cognito user pool client secret as part of our CDK setup. Thanks to Giulio ([giuliopulina](https://github.com/giuliopulina)) for [suggesting this improvement](https://github.com/stratospheric-dev/stratospheric/issues/169).
 
-There is one caveat with the migration: As of now, there's no Spring Boot 3.0 compatible release for the Spring Boot Starter for Active MQ. As a workaround, we're still using Spring Boot 2.7.X for that area of our sample application. While mixing different Spring Boot versions within the same application is something to avoid, we didn't want to postpone this ebook release. The application works as expected, and we're working on a small refactoring to also bump this area to Spring Boot 3.0.
+There is *one caveat* with the migration: As of now, there's no Spring Boot 3.0 compatible release for the Spring Boot Starter for Active MQ. As a workaround, we're still using Spring Boot 2.7.X for that area of our sample application. While mixing different Spring Boot versions within the same application is something to avoid, we didn't want to postpone this ebook release. The application works as expected, and we're working on a small refactoring to also bump this area to Spring Boot 3.0.
 
 With our goal to keep the content relevant and up-to-date, we sometimes fail to keep the manuscript in sync or miss sections to adjust. Feel free [to report](https://github.com/stratospheric-dev/stratospheric/issues/new/choose) any inconsistencies as soon as you find them.
 
