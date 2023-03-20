@@ -4,7 +4,7 @@ title: "Stratospheric Online Course: Version 1.0 Now Available 🥳"
 description: "Version 1.0 of the Stratospheric online course is now available for $249!"
 author: bjoern
 publishdate: "2023-03-21"
-featureImage: stratospheric-online-course-preview-image
+featureImage: cloud-rocket-launch-one
 toc: true
 slug: stratospheric-online-course-1.0-release
 ---
