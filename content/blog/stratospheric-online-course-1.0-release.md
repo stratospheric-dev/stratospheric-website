@@ -51,40 +51,40 @@ Version 1.0 now being available **concludes our early-bird offer**. The online c
 
 You can find further information about the online course [here](https://stratospheric.dev/online-course/). If you want to get a feel for the course you can find a sample video on [the course homepage](https://stratospheric.dev/online-course/) as well. You can also take advantage of the 60-day money-back guarantee that Leanpub offers.
 
-> ## Table of contents
-> 
-> ### Part I: Deploying with AWS
-> Deployment Options with AWS
-> Getting Ready to Use AWS
-> Deploy a Docker Image to Amazon ECR
-> Getting Started with CloudFormation
-> Deploying a Network Stack with CloudFormation
-> Deploying a Service Stack with CloudFormation
-> Getting Started with CDK
-> CDK Best Practices
-> Deploying a Network Stack with CDK
-> Deploying a Service Stack with CDK
-> Continuous Deployment with CDK and GitHub Actions
-> 
-> ### Part II: Spring Boot & AWS
-> Local Development
-> Building User Registration and Login with Amazon Cognito
-> Connecting to a Database with Amazon RDS
-> Sharing Todos with Amazon SQS and Amazon SES
+## Table of contents
 
-> ### Part III: Production Readiness with AWS
-> Getting Started with Amazon CloudWatch
-> Downsides of Logging Unstructured Text
-> Logging Structured Text with Logback and Amazon CloudWatch
-> Analyzing Sturctured Logs with Amazon CloudWatch
-> Monitoring Metrics with Amazon CloudWatch
-> Sending Default Spring Boot Metrics to Amazon CloudWatch
-> Sending Custom Micrometer Metrics to Amazon CloudWatch
-> Creating Amazon CloudWatch Dashboards
-> Alarming with Amazon CloudWatch
-> Creating Amazon Cloud Watch Alarms with the CDK
-> Managing and Handling Alarms
-> Introduction to Synthetic Monitoring with AWS
-> Creating Canaries with Node.JS and the AWS CDK
+### Part I: Deploying with AWS
+* Deployment Options with AWS
+* Getting Ready to Use AWS
+* Deploy a Docker Image to Amazon ECR
+* Getting Started with CloudFormation
+* Deploying a Network Stack with CloudFormation
+* Deploying a Service Stack with CloudFormation
+* Getting Started with CDK
+* CDK Best Practices
+* Deploying a Network Stack with CDK
+* Deploying a Service Stack with CDK
+* Continuous Deployment with CDK and GitHub Actions
+
+### Part II: Spring Boot & AWS
+* Local Development
+* Building User Registration and Login with Amazon Cognito
+* Connecting to a Database with Amazon RDS
+* Sharing Todos with Amazon SQS and Amazon SES
+
+### Part III: Production Readiness with AWS
+* Getting Started with Amazon CloudWatch
+* Downsides of Logging Unstructured Text
+* Logging Structured Text with Logback and Amazon CloudWatch
+* Analyzing Sturctured Logs with Amazon CloudWatch
+* Monitoring Metrics with Amazon CloudWatch
+* Sending Default Spring Boot Metrics to Amazon CloudWatch
+* Sending Custom Micrometer Metrics to Amazon CloudWatch
+* Creating Amazon CloudWatch Dashboards
+* Alarming with Amazon CloudWatch
+* Creating Amazon Cloud Watch Alarms with the CDK
+* Managing and Handling Alarms
+* Introduction to Synthetic Monitoring with AWS
+* Creating Canaries with Node.JS and the AWS CDK
 
 » [Enroll now for the Stratospheric online course](https://stratospheric.dev/online-course/).
