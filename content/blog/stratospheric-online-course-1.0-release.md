@@ -15,7 +15,7 @@ slug: stratospheric-online-course-1.0-release
 
 The *Stratospheric online course* includes a total of 36 lessons and 33 videos (*7.5 hrs of video content!*), alongside with relevant resources, links,  transcripts (see below for a complete *table of contents*), and 29 quizzes to test your knowledge.
 
-<a class="btn learn-more-btn" href="https://leanpub.com/c/stratospheric">Get the Stratospheric online course now!</a>
+» [Get the Stratospheric online course now!](https://leanpub.com/c/stratospheric)
 
 This online course will teach you **how to develop a production-ready Spring Boot application and deploy it to AWS** while integrating several AWS services:
 
