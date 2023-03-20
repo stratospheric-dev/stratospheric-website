@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: "Stratospheric Online Course Early-Bird Batch #4"
-description: "Batch #3 is closed. Long live Batch #4!"
-author: philip
+title: "Stratospheric Online Course: Version 1.0 Now Available 🥳"
+description: "Version 1.0 of the Stratospheric online course is now available for $249!"
+author: bjoern
 publishdate: "2023-03-21"
 featureImage: stratospheric-online-course-preview-image
 toc: true
