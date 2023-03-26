@@ -30,6 +30,6 @@ HUGO_VERSION = "0.111.3"
 HUGO_ENABLEGITINFO = "true"
 
 [[headers]]
-  for = "/prompt"
+  for = "/prompt/*"
   [headers.values]
     Basic-Auth = "stratospheric:fade-STARK-furore"
