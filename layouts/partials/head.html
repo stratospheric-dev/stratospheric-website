@@ -26,12 +26,6 @@
   <link rel="stylesheet" type="text/css" href="/css/style.css"/>
   <link rel="stylesheet" type="text/css" href="/css/accordion.css"/>
 
-  {{ $currentPage := trim .Page.RelPermalink "/" }}
-  {{ if eq $currentPage "prompt" }}
-    {{ $tailwindStyle := resources.Get "css/tailwind-style.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
-    <link rel="stylesheet" href="{{ $tailwindStyle.Permalink }}"> 
-  {{ end }}
-
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap"
         rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
