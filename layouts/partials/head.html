@@ -28,7 +28,7 @@
 
   {{ $currentPage := trim .Page.RelPermalink "/" }}
   {{ if eq $currentPage "prompt" }}
-    {{ $tailwindStyle := resources.Get "css/tailwind-style.css" | postCSS (dict "config" "./assets/css/postcss.config.cjs") }}
+    {{ $tailwindStyle := resources.Get "css/tailwind-style.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
     <link rel="stylesheet" href="{{ $tailwindStyle.Permalink }}"> 
   {{ end }}
 
