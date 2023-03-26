@@ -3,9 +3,6 @@ title: "Prompt"
 description: "Stratospheric - From Zero to Production with Spring Boot and AWS"
 date: 2022-03-26T21:15:10+02:00
 ---
-{{ with resources.Get "prompt-app.jsx" }}
-{{ $options := dict "defines" (dict "process.env.NODE_ENV" "\"development\"" "process.env.BaseURL" (printf `"%s"` $.Site.BaseURL)) }}
-{{ $script := . | js.Build $options }}
 <div class="wrapper">
   <div class="header">
     <div class="container header-container">
@@ -13,4 +10,8 @@ date: 2022-03-26T21:15:10+02:00
     </div>
   </div>
 </div>
-<script type="module" src="/js/prompt-app.js"></script>
+{{ with resources.Get "prompt-app.jsx" }}
+{{ $options := dict "defines" (dict "process.env.NODE_ENV" "\"development\"" "process.env.BaseURL" (printf `"%s"` $.Site.BaseURL)) }}
+{{ $script := . | js.Build $options }}
+<script src="{{ $script.RelPermalink }}" defer></script>
+{{ end }}
