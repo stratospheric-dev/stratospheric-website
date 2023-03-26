@@ -1,5 +1,5 @@
-import imagemin from "imagemin";
-import imageminWebp from "imagemin-webp";
+const imagemin = require('imagemin');
+const imageminWebp = require('imagemin-webp');
 
 (async () => {
     let fullImages = await convertFullImages();
