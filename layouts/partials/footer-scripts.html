@@ -11,6 +11,5 @@
 	{{ $defines := dict "process.env.NODE_ENV" `"development"` }}
 	{{ $options := dict "defines" $defines }}
 	{{ $promptApp := resources.Get "jsx/prompt-app.jsx" | js.Build $options }}
-	<script src="https://cdn.tailwindcss.com"></script>
 	<script src="{{ $promptApp.RelPermalink }}" defer></script>
 {{ end }}
