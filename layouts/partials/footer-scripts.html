@@ -9,4 +9,3 @@
 <div id="prompt"></div>
 {{ $promptApp := resources.Get "prompt-app.jsx" | js.Build }}
 <script src="{{ $promptApp.RelPermalink }}" defer></script>
-<script src="{{ $built.RelPermalink }}" defer></script>
