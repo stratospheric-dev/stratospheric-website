@@ -2,6 +2,8 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 
+import StratosphericPrompt from './stratospheric-prompt';
+
 const PromptApp = () => {
   return <StratosphericPrompt />
 }
