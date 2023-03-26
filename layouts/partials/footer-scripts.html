@@ -8,9 +8,8 @@
 
 {{ $currentPage := trim .Page.RelPermalink "/" }}
 {{ if eq $currentPage "prompt" }}
-	{{ $externals := slice "react-dom/client" }}
 	{{ $defines := dict "process.env.NODE_ENV" `"development"` }}
-	{{ $options := dict "externals" $externals "defines" $defines }}
+	{{ $options := dict "defines" $defines }}
 	{{ $promptApp := resources.Get "prompt-app.jsx" | js.Build $options }}
 	<script src="{{ $promptApp.RelPermalink }}" defer></script>
 {{ end }}
