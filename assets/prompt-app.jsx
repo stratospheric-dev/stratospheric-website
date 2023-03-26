@@ -7,4 +7,4 @@ const PromptApp = () => {
 }
 
 const root = ReactDOMClient.createRoot(document.getElementById('prompt'));
-root.render(<PromptApp/>);
+root.render(<StratosphericPrompt />);
