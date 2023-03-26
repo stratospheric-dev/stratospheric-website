@@ -6,7 +6,8 @@
 <script src="/js/smoothscroll.js"></script>
 <script src="/js/accordion.js"></script>
 
-{{ if eq .Url "/prompt" }}
+{{ $currentPage := trim .Page.RelPermalink "/" }}
+{{ if eq $currentPage "prompt" }}
 	{{ $externals := slice "react" "react-dom" }}
 	{{ $defines := dict "process.env.NODE_ENV" `"development"` }}
 	{{ $options := dict "externals" $externals "defines" $defines }}
