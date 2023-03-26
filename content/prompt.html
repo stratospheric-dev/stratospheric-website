@@ -10,5 +10,3 @@ date: 2022-03-26T21:15:10+02:00
     </div>
   </div>
 </div>
-{{ $promptApp := resources.Get "prompt-app.jsx" | js.Build }}
-<script src="{{ $promptApp.RelPermalink }}" defer></script>
