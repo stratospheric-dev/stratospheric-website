@@ -2,7 +2,6 @@
   "name": "stratospheric.dev",
   "version": "1.0.0",
   "description": "Stratospheric static website",
-  "type": "module",
   "scripts": {
     "preinstall": "npm-force-resolutions",
     "images:optimize": "node scripts/optimize-images.js"
