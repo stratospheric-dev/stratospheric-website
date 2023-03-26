@@ -6,8 +6,10 @@
 <script src="/js/smoothscroll.js"></script>
 <script src="/js/accordion.js"></script>
 
-{{ $externals := slice "react" "react-dom" }}
-{{ $defines := dict "process.env.NODE_ENV" `"development"` }}
-{{ $options := dict "externals" $externals "defines" $defines }}
-{{ $promptApp := resources.Get "prompt-app.jsx" | js.Build $options }}
-<script src="{{ $promptApp.RelPermalink }}" defer></script>
+{{ if eq .Url "/prompt" }}
+	{{ $externals := slice "react" "react-dom" }}
+	{{ $defines := dict "process.env.NODE_ENV" `"development"` }}
+	{{ $options := dict "externals" $externals "defines" $defines }}
+	{{ $promptApp := resources.Get "prompt-app.jsx" | js.Build $options }}
+	<script src="{{ $promptApp.RelPermalink }}" defer></script>
+{{ end }}
