@@ -1,9 +1,7 @@
 import { createRoot } from 'react-dom/client';
 
 const PromptApp = () => {
-  return (
-    <button onClick={sayHello}>Click me!</button>
-  )
+  return <StratosphericPrompt />
 }
 
 const root = createRoot(document.getElementById('prompt'));
