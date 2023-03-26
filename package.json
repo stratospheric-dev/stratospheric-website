@@ -2,6 +2,7 @@
   "name": "stratospheric.dev",
   "version": "1.0.0",
   "description": "Stratospheric static website",
+  "type": "module",
   "scripts": {
     "preinstall": "npm-force-resolutions",
     "images:optimize": "node scripts/optimize-images.js"
@@ -11,6 +12,7 @@
     "semver-regex": "4.0.5"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
     "imagemin": "^8.0.1",
     "imagemin-webp": "^8.0.0",
     "npm-force-resolutions": "^0.0.10",
