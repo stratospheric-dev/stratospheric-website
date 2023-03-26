@@ -8,15 +8,24 @@
     "images:optimize": "node scripts/optimize-images.js"
   },
   "resolutions": {
-    "trim-newlines": "4.0.2",
-    "semver-regex": "4.0.2"
+    "trim-newlines": "5.0.0",
+    "semver-regex": "4.0.5"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
     "imagemin": "^8.0.1",
-    "imagemin-webp": "^7.0.0",
-    "npm-force-resolutions": "^0.0.10"
+    "imagemin-webp": "^8.0.0",
+    "npm-force-resolutions": "^0.0.10",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.2.7"
   },
   "engines": {
     "node": ">= 16"
+  },
+  "dependencies": {
+    "markprompt": "^0.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

@@ -1,5 +1,5 @@
-import imagemin from "imagemin";
-import imageminWebp from "imagemin-webp";
+import imagemin from 'imagemin';
+import imageminWebp from 'imagemin-webp';
 
 (async () => {
     let fullImages = await convertFullImages();

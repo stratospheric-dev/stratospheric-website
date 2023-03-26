@@ -1275,3 +1275,11 @@ ul.social li {
     margin-top: 8px
 }
 
+#prompt {
+    width: 100%;
+}
+
+#prompt input {
+    padding: 10px !important;
+    width: 100%;
+}
