@@ -10,8 +10,6 @@ date: 2022-03-26T21:15:10+02:00
     </div>
   </div>
 </div>
-{{ with resources.Get "prompt-app.jsx" }}
-{{ $options := dict "defines" (dict "process.env.NODE_ENV" "\"development\"" "process.env.BaseURL" (printf `"%s"` $.Site.BaseURL)) }}
-{{ $script := . | js.Build $options }}
-<script src="{{ $script.RelPermalink }}" defer></script>
-{{ end }}
+{{ $promptApp := resources.Get "prompt-app.jsx" | js.Build }}
+<script src="{{ $promptApp.RelPermalink }}" defer></script>
+<script src="{{ $built.RelPermalink }}" defer></script>
