@@ -1,5 +1,7 @@
 import { Markprompt } from 'markprompt'
 
-function StratosphericPrompt() {
+const StratosphericPrompt = () => {
   return <Markprompt projectKey="2eVyM4MCCHsBOyF1mBPumCEwNOhe3IQp" />
 }
+
+export default StratosphericPrompt;
