@@ -14,7 +14,8 @@
   "devDependencies": {
     "imagemin": "^8.0.1",
     "imagemin-webp": "^8.0.0",
-    "npm-force-resolutions": "^0.0.10"
+    "npm-force-resolutions": "^0.0.10",
+    "tailwindcss": "^3.2.7"
   },
   "engines": {
     "node": ">= 16"
