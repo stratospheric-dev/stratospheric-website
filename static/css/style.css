@@ -1282,7 +1282,6 @@ ul.social li {
 #prompt form {
     background-color: white;
 }
-}
 
 #prompt input {
     padding: 10px !important;
@@ -1293,6 +1292,7 @@ ul.social li {
 
 #prompt input:focus {
     border: 1px solid #FF3E81;
+    outline: none;
 }
 
 #prompt .prose {
