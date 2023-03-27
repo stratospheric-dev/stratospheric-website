@@ -1282,4 +1282,18 @@ ul.social li {
 #prompt input {
     padding: 10px !important;
     width: 100%;
+    border: 1px solid #3A88EC !important;
+    background-color: white;
+}
+
+#prompt input:focus {
+    border: 1px solid #FF3E81;
+    outline-color: #FF3E81;
+}
+
+#prompt .prose {
+    border: 1px solid #AAA;
+    background-color: white;
+    position: relative;
+    min-height: 500px;
 }
