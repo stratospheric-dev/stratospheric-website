@@ -1288,11 +1288,11 @@ ul.social li {
     padding: 10px !important;
     width: 100%;
     border: 1px solid #3A88EC !important;
+    margin-bottom: 10px;
 }
 
 #prompt input:focus {
     border: 1px solid #FF3E81;
-    outline: none;
 }
 
 #prompt .prose {
