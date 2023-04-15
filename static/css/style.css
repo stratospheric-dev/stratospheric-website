@@ -1335,6 +1335,5 @@ ul.social li {
 }
 
 .text-body-secondary {
-    --bs-text-opacity: 1;
-    color: var(--bs-secondary-color) !important;
+    color: rgba(33, 37, 41, 0.75) !important;
 }
