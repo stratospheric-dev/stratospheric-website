@@ -1317,6 +1317,10 @@ ul.social li {
     box-shadow: 0 1rem 3rem rgba(0,0,0,.75) !important;
 }
 
+.bundles-container ul {
+    padding-left: 0;
+}
+
 .bundles-container ul.dashed {
     list-style-type: none;
 }
