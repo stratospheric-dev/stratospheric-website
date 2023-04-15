@@ -1345,3 +1345,8 @@ ul.social li {
 .primary-bundle.border-primary {
     border-color: #3A88EC !important;
 }
+
+.text-body-secondary {
+    --bs-text-opacity: 1;
+    color: var(--bs-secondary-color) !important;
+}
