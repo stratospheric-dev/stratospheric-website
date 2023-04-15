@@ -1333,3 +1333,7 @@ ul.social li {
     content: "- ";
     text-indent: -5px;
 }
+
+.primary-bundle.border-primary {
+    border-color: #3A88EC !important;
+}
