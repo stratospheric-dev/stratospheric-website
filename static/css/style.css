@@ -1330,6 +1330,6 @@ ul.social li {
 }
 
 .bundles-container ul.dashed > li:before {
-    content: "-";
+    content: "- ";
     text-indent: -5px;
 }
