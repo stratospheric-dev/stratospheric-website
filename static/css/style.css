@@ -1320,3 +1320,16 @@ ul.social li {
 .bundles-container li {
     text-align: left;
 }
+
+.bundles-container ul.dashed {
+    list-style-type: none;
+}
+
+.bundles-container ul.dashed > li {
+    text-indent: -5px;
+}
+
+.bundles-container ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+}
