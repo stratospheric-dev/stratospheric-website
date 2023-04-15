@@ -1341,3 +1341,7 @@ ul.social li {
 .text-body-secondary {
     color: rgba(33, 37, 41, 0.75) !important;
 }
+
+.bundles-container small {
+    font-size: 0.5em;
+}
