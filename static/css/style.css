@@ -1316,3 +1316,7 @@ ul.social li {
     will-change: transform;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.75) !important;
 }
+
+.bundles-container li {
+    text-align: left;
+}
