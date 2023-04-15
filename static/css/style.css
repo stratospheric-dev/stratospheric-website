@@ -1338,6 +1338,10 @@ ul.social li {
     border-color: #3A88EC !important;
 }
 
+.primary-bundle.border-primary:hover {
+    border-color: #FF3E81 !important;
+}
+
 .text-body-secondary {
     color: rgba(33, 37, 41, 0.75) !important;
 }
