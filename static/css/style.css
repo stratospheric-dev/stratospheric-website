@@ -1302,6 +1302,10 @@ ul.social li {
     margin-top: 10px;
 }
 
+.bundles-container .card {
+    min-width: 400px;
+}
+
 .bundles-container h2 {
     font-size: 2.5rem;
 }
@@ -1319,6 +1323,7 @@ ul.social li {
 
 .bundles-container li {
     text-align: left;
+    padding-left: 0;
 }
 
 .bundles-container ul.dashed {
