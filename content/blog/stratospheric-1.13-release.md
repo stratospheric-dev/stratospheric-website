@@ -3,7 +3,7 @@ layout: blog
 title: "Stratospheric 1.13 Release 🥳"
 description: "Release notes for the Stratospheric 1.13 ebook release"
 author: tom
-publishdate: "2023-10-04"
+publishdate: "2023-10-03"
 featureImage: cloud-rocket-launch-two
 toc: true
 slug: stratospheric-1.13-release
