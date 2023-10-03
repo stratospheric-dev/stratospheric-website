@@ -9,7 +9,7 @@ toc: true
 slug: stratospheric-1.10-release
 ---
 
-It's time for a new Stratospheric eBook release 🥳
+It's time for a new Stratospheric eBook release! 🥳
 
 This time it's a pretty big one, as we've migrated the Stratospheric sample Todo application to **Spring Boot 3.0 and Spring Cloud AWS 3.0**.
 
