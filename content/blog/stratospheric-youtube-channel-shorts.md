@@ -7,7 +7,6 @@ author: bjoern
 publishdate: "2024-03-05"
 featureImage: cloud-rocket-launch-three
 slug: stratospheric-youtube-channel
-draft: true
 ---
 
 We're happy to announce that Stratospheric now has its very own YouTube channel: https://www.youtube.com/@Stratospheric42
