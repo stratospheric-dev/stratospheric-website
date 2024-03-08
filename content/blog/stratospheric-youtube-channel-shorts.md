@@ -1,7 +1,6 @@
 ---
 layout: blog
 title: "Stratospheric - YouTube Channel and Preview Videos"
-date: 2024-02-22T14:32:39+01:00
 description: "Stratospheric - YouTube Channel and Preview Videos"
 author: bjoern
 publishdate: "2024-03-05"
