@@ -1,10 +1,4 @@
 ---
-title: "German Translation Available"
-date: 2024-07-25T13:31:03+02:00
-draft: true
----
-
----
 layout: blog
 title: "Stratospheric - German Translation Now Available"
 description: "Stratospheric - German Translation Now Available"
@@ -12,6 +6,7 @@ author: bjoern
 publishdate: "2024-07-25"
 featureImage: cloud-rocket-launch-five
 slug: german-translation-available
+date: 2024-07-25T13:31:03+02:00
 ---
 
 Stratospheric not only speaks English, [habla español tambien](https://leanpub.com/stratospheric-es), [und nun auch Deutsch](https://leanpub.com/stratospheric-de)!
